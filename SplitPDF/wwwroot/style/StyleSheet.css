@@ -1,0 +1,15 @@
+﻿body {
+
+}
+
+.headerTile{
+    background-color:indianred;
+    text-align:center;
+    color:white;
+}
+#root{
+    /*background-color: indianred;*/
+    text-align: center;
+    width:95%;
+}
+

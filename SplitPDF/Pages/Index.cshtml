@@ -4,16 +4,23 @@
 @{
     ViewData["Title"] = "SplitPDF";
 }
+<asp:Content runat="server" ContentPlaceHolderID="stylesheet">
+    <link rel="stylesheet" type="text/css" href="~/style/StyleSheet.css" />
+</asp:Content>
+<div id="root">
 
-
-<div class="text-center">
+<div class="headerTile">
     <h1>Split your PDFs</h1>
 </div>
- 
+
+ <div id="formContainer">
+
 <form method="post" enctype="multipart/form-data">
     @*<asp:FileUpload />*@
     <input asp-for="UploadedFile" />
     
     <input type="submit" />
 </form>
+ </div>
+</div>
 
