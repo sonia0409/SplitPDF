@@ -5,3 +5,7 @@
 - If no number of pages chosen by default should split all the pages.
 - User should be able to chose the destination path for the splitted doc.
 - By default the PDFs are saves as zip file in the download folder.
+
+Pending feature
+- Add validation to the file uploaded
+- select the range of pages to be splitted
