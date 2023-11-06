@@ -3,13 +3,36 @@
 }
 
 .headerTile{
-    background-color:indianred;
-    text-align:center;
-    color:white;
+    /*background-color:indianred;*/
+    /*text-align:center;*/
+    /*color:white;*/
+    height: 10vh;
+    
 }
-#root{
+#root {
     /*background-color: indianred;*/
     text-align: center;
-    width:95%;
+    width: 70vw;
+    height: 50vh;
+    border: 1px solid brown;
+    margin-left: 15vw;
+    margin-top: 10vh;
+}
+#formContainer {
+    background-color: burlywood;
+    height: 33vh;
+    /*width:90vw;*/
+    text-align: center;
+    border-left-width: 20px;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+#innerContainer {
+    display: flex;
+    justify-content: center;
+    padding-top:10vh;
 }
 
+.fileupload, .sbtButton{
+    font-size:20px;
+}

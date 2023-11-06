@@ -17,9 +17,17 @@
 
 <form method="post" enctype="multipart/form-data">
     @*<asp:FileUpload />*@
+    <div id="innerContainer">
+    <div class="fileupload">
+
     <input asp-for="UploadedFile" />
+    </div>
     
+    <div class="sbtButton">
+
     <input type="submit" />
+    </div>
+    </div>
 </form>
  </div>
 </div>
